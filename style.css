@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+}
+#Text-To-Speech-Synthesis{
+    color: white;
+    padding: 4vh 2vw;
+    font-size: 38px;
+}
+#slogan{
+    color: white;
+}
+#getText {
+    padding: 2vh 2vw;
+    margin: 2vh 2vw;
+    outline: none;
+    border-radius: 2vh;
+    background: rgba(6, 0, 0, 0.283);
+    border-radius: 16px;
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border: 1px solid rgba(255, 255, 255, 1);
+    height: 20vh;
+    width: 70vw;
+    box-shadow: 10px 5px 5px black;
+    margin-top: 10vh;
+    color: white;
+}
+
+.everythingContainer {
+    background-image: linear-gradient(to bottom right, darkblue, #D8BFD8);
+    height: 100vh;
+    width: 100vw;
+}
+#heading{
+    color: red;
+}
+#playButton{
+    outline: none;
+    padding: .4vh .4vw;
+    border-radius: 1vh;
+    background: red;
+    border: 2px solid red;
+    color: white;
+}
+#playButton:hover{
+    background: orange;
+    border: 2px solid orange;
+}
+#selection{
+    outline: none;
+    padding: .4vh .4vw;
+    border-radius: 1vh;
+    background: orange;
+    border: 2px solid orange;
+    color: white;
+    width: 70vw;
+}
