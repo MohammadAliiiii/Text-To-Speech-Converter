@@ -7,8 +7,8 @@
     font-style: normal;
 }
 body {
-    height: 100vh;
-    width: 100vw;
+    height: auto;
+    width: auto;
     text-align: center;
 }
 #Text-To-Speech-Synthesis{
